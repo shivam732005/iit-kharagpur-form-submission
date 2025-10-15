@@ -1,2 +1,2 @@
 # New Project
-this is a new project on local mmachine
+this is a new project on local machine
