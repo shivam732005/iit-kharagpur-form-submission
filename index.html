@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Travel Form</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <img class="bg" src="images.jpg" alt="IIT kharagpur">
+    <div class="container">
+        <h1>Welcome to IIT Kharagpur US Trip Form</h1>
+        <p>enter your details to confirm your participation in the trip</p>
+        <!-- <p class="Submitting">Thanks for the Submitting This Form to Confirm your Participation in The Trip</p> -->
+
+        <form action="index.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name">
+            <input type="text" name="age" placeholder="Enter your age">
+            <input type="text" name="gender" placeholder="Enter your gender">
+            <input type="email" name="email" placeholder="Enter your email">
+            <input type="phone" name="phone" placeholder="Enter your phone number">
+            <textarea name="desc" id="desc" cols="12" rows="12" placeholder="Enter Any Other Information"></textarea>
+            <button class="btn">Submit</button>
+            <!-- <button class="btn">Reset</button> -->
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+   <!-- INSERT INTO `tripola` (`Sno.`, `name`, `age`, `gender`, `email`, `phone number`, `other`, `dt`) VALUES ('1', 'testname', '22', 'male', 'this@this.com', '8888888888', 'this is my first ever php admin program', current_timestamp()); -->
+</body>
+</html>
